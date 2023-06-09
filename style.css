@@ -67,3 +67,13 @@ h6 {
 #__next {
   isolation: isolate;
 }
+:root {
+  --cc-dark-grayish-blue: hsl(217, 19%, 35%);
+  --cc-dark-blue: hsl(214, 17%, 51%);
+  --cc-grayish-blue: hsl(212, 23%, 69%);
+  --cc-light-grayish-blue: hsl(210, 46%, 95%);
+
+  --ff-manrope: "Manrope";
+  --fw-regular: 500;
+  --fw-bolder: 700;
+}
