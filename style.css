@@ -77,3 +77,19 @@ h6 {
   --fw-regular: 500;
   --fw-bolder: 700;
 }
+body {
+  display: grid;
+  place-items: center;
+  background-color: var(--cc-light-grayish-blue);
+  font-family: var(--ff-manrope, sans-serif);
+}
+.article {
+  max-width: 80%;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.article__information {
+  padding: 2rem;
+  font-size: 13px;
+}
