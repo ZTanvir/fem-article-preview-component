@@ -112,8 +112,10 @@ body {
 .share-mobile__icon {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .icon-mobile__share {
+  font-size: 13px;
   letter-spacing: 0.5rem;
   color: var(--cc-light-grayish-blue);
   opacity: 0.4;
@@ -122,9 +124,9 @@ body {
   margin: 0rem 0.5rem;
 }
 .mobile__share-img {
-  color: var(--cc-grayish-blue);
-  background-color: var(--cc-grayish-blue);
-  width: 1.5rem;
-  height: 1.5rem;
+  background-color: white;
+  padding: 0.12rem;
+  width: 1.35rem;
+  height: 1.35rem;
   border-radius: 50%;
 }
