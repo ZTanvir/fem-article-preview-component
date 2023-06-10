@@ -91,6 +91,14 @@ body {
 .article__information {
   padding: 2rem;
   font-size: 13px;
+  display: grid;
+  gap: 1rem;
+}
+.article__title {
+  opacity: 0.8;
+}
+.article__description {
+  opacity: 0.6;
 }
 .hide-author {
   display: none;
@@ -129,4 +137,5 @@ body {
   width: 1.35rem;
   height: 1.35rem;
   border-radius: 50%;
+  cursor: pointer;
 }
