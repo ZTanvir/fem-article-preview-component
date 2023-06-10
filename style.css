@@ -85,11 +85,46 @@ body {
 }
 .article {
   max-width: 80%;
-  border: 1px solid red;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 .article__information {
   padding: 2rem;
   font-size: 13px;
+}
+.hide-author {
+  display: none;
+}
+.hide-share-desktop {
+  display: none;
+}
+.article__share-mobile {
+  background-color: var(--cc-dark-grayish-blue);
+}
+.article__information {
+  background-color: white;
+}
+.article__share-mobile {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2rem 1rem;
+}
+.share-mobile__icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-mobile__share {
+  letter-spacing: 0.5rem;
+  color: var(--cc-light-grayish-blue);
+  opacity: 0.4;
+}
+.share-mobile__icon img {
+  margin: 0rem 0.5rem;
+}
+.mobile__share-img {
+  color: var(--cc-grayish-blue);
+  background-color: var(--cc-grayish-blue);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
 }
