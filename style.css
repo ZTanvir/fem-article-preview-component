@@ -164,6 +164,23 @@ body {
 
 /* for destop  media size >= 1024 */
 @media only screen and (min-width: 1024px) {
+  .article__image {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .article__title {
+    font-size: 2rem;
+  }
+
+  .article__description {
+    font-size: 1.2rem;
+  }
+
+  .author__name-date {
+    font-size: 1rem;
+  }
+
   .article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -191,9 +208,11 @@ body {
   }
 
   .share-arrow-destop {
-    width: 30px;
-    height: 30px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
+    background-color: var(--cc-light-grayish-blue);
+    padding: 0.5rem;
   }
 
   .article__author-img {
@@ -201,7 +220,4 @@ body {
     height: 50px;
     border-radius: 50%;
   }
-
-
-
 }
