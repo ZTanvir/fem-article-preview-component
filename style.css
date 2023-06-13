@@ -228,7 +228,19 @@ body {
 
   .hide-share-desktop {
     position: absolute;
-    top: 10px;
-    background-color: red;
+    display: block;
+    width: 10rem;
+    top: -39px;
+    right: -65px;
+    background-color: var(--cc-dark-grayish-blue);
+  }
+
+  .share-desktop__icon {
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  .article {
+    overflow: visible;
   }
 }
