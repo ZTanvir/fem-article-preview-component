@@ -186,6 +186,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .article__information {
+    padding: 2rem 3rem;
+  }
+
   .hide-share-mobile {
     display: none;
   }
@@ -198,6 +202,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
 
   .article__author-info {
@@ -219,5 +224,11 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+  }
+
+  .hide-share-desktop {
+    position: absolute;
+    top: 10px;
+    background-color: red;
   }
 }
