@@ -236,7 +236,16 @@ body {
     background-color: var(--cc-dark-grayish-blue);
   }
 
-  .bottom-arrow {}
+  .bottom-arrow::after {
+    content: " ";
+    position: absolute;
+    right: 145px;
+    bottom: -14px;
+    border-top: 15px solid var(--cc-dark-grayish-blue);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+  }
 
   .share-desktop__icon {
     display: flex;
