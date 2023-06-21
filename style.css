@@ -226,18 +226,32 @@ body {
     border-radius: 50%;
   }
 
-  .hide-share-desktop {
+  .article__share-desktop {
     position: absolute;
     display: block;
-    width: 10rem;
-    top: -39px;
-    right: -65px;
+    width: 20rem;
+    top: -111px;
+    right: -141px;
+    border-radius: 1rem;
     background-color: var(--cc-dark-grayish-blue);
   }
 
+  .bottom-arrow {}
+
   .share-desktop__icon {
     display: flex;
-    padding: 0.5rem;
+    padding: 1.5rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .share-desktop__icon>img {
+    width: 2rem;
+  }
+
+  .icon-desktop__share {
+    color: var(--cc-grayish-blue);
+    font-size: 22px;
   }
 
   .article {
