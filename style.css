@@ -218,6 +218,7 @@ body {
     border-radius: 50%;
     background-color: var(--cc-light-grayish-blue);
     padding: 0.5rem;
+    cursor: pointer;
   }
 
   .article__author-img {
@@ -234,6 +235,10 @@ body {
     right: -141px;
     border-radius: 1rem;
     background-color: var(--cc-dark-grayish-blue);
+  }
+
+  .active-desktop-share {
+    display: none;
   }
 
   .bottom-arrow::after {
