@@ -122,18 +122,16 @@ body {
   display: none;
 }
 
-.article__share-mobile {
-  background-color: var(--cc-dark-grayish-blue);
-}
-
 .article__information {
   background-color: white;
 }
 
 .article__share-mobile {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding: 1.2rem 1rem;
+  background-color: white;
 }
 
 .share-mobile__icon {
@@ -154,12 +152,37 @@ body {
 }
 
 .mobile__share-img {
-  background-color: white;
+  background-color: var(--cc-light-grayish-blue);
   padding: 0.12rem;
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.article__mobile_author-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.article__mobile_author-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.share-mobile__icon {
+  display: none;
+}
+
+.mobile-author__name,
+.mobile-author__post-date {
+  font-size: 13px;
+}
+
+.mobile-author__post-date {
+  opacity: 0.5;
 }
 
 /* for destop  media size >= 1024 */
