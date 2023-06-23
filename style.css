@@ -172,10 +172,6 @@ body {
   gap: 1rem;
 }
 
-.share-mobile__icon {
-  display: none;
-}
-
 .mobile-author__name,
 .mobile-author__post-date {
   font-size: 13px;
@@ -183,6 +179,10 @@ body {
 
 .mobile-author__post-date {
   opacity: 0.5;
+}
+
+.hide-info-mobile {
+  display: none;
 }
 
 /* for destop  media size >= 1024 */
