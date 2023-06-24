@@ -11,7 +11,7 @@ const mobileShareImg = document.querySelector(".mobile__share-img");
 const authorInfoEl = document.querySelector(".article__mobile_author-info");
 const shareIconsEl = document.querySelector(".share-mobile__icon");
 
-//
+// Show social share section by click on share icon for mobile
 mobileShareImg.addEventListener("click", (e) => {
   authorInfoEl.classList.toggle("hide-info-mobile");
   shareIconsEl.classList.toggle("hide-info-mobile");
@@ -20,5 +20,4 @@ mobileShareImg.addEventListener("click", (e) => {
   } else {
     articleShareMobileEl.style.backgroundColor = "white";
   }
-  console.log(articleShareMobileEl, mobileShareImg, authorInfoEl, shareIconsEl);
 });
