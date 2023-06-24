@@ -303,4 +303,8 @@ body {
   .article {
     overflow: visible;
   }
+
+  .icon-desktop__share {
+    letter-spacing: 0.4rem;
+  }
 }
