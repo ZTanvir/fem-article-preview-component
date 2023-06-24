@@ -132,6 +132,7 @@ body {
   justify-content: space-around;
   padding: 1.2rem 1rem;
   background-color: white;
+  min-height: 5.625rem;
 }
 
 .share-mobile__icon {
@@ -190,6 +191,13 @@ body {
   .article__image {
     object-fit: cover;
     height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .article__information {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 
   .article__title {
@@ -259,6 +267,7 @@ body {
     border-radius: 1rem;
     background-color: var(--cc-dark-grayish-blue);
   }
+
 
   .active-desktop-share {
     display: none;
